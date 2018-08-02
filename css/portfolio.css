@@ -1,0 +1,157 @@
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+.hero {
+	background: url('../img/hero-bg.jpg');
+	background-size:cover;
+	background-position: bottom center;
+    padding: 120px 0 150px 0;
+    color: #fff;
+}
+.aboutme p {
+    font-weight: 200;
+    line-height: 2rem;
+}
+.site-container {
+	padding: 40px 45px;
+	max-width:1500px;
+	margin:  auto;
+}
+.projects {
+    top: -90px;
+    position: relative;
+    margin-bottom: -43px;
+}
+.project-image {
+	max-width:100%;
+	height: auto;
+}
+.project-programs {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    margin-bottom: -4px;
+}
+.project-programs li {
+    list-style-type: none;
+    padding: 10px 2px 0px 2px;
+    display: inline-block;
+}
+.website-links {text-align:center;}
+.website-links a {
+    color: #41c6d4;
+    font-size: 1.5rem;
+    padding: 13px;
+    transition: all ease .5s;
+}
+.website-links a:hover {
+    color: #2f8790;
+}
+.project-short-description {
+    font-weight: 300;
+    font-size: .9rem;
+}
+.project-title {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.projects img {
+	transform:translateY(0);
+	transition: all ease .5s;
+    box-shadow: 0px 0px 12px #33333324;
+}
+.projects img:hover {
+	transform:translateY(-25px);
+    box-shadow: 0px 0px 19px #33333347;
+}
+
+.name {
+    text-align: center;
+    padding: 17px;
+}
+.name h1 {
+	font-weight: 900;
+	text-transform:uppercase;
+}
+.name span a {
+	color:#fff;
+	font-weight:200;
+}
+.aboutme {position:relative;}
+.aboutme:before {
+    content: '';
+    background: #fff;
+    height: 60%;
+    width: 1px;
+    left: -61px;
+    top: 19%;
+    position: absolute;
+    bottom: 0;
+    opacity: .2;
+}
+.badge-css {
+	background:#006eb9;
+	color:#fff;
+}
+.badge-html {
+	background:#e44d26;
+	color:#fff;
+}
+.badge-java {
+	background:#d6ba33;
+	color:#fff;
+}
+.badge-jquery {
+	background:#333;
+	color:#fff;
+}
+.badge-shopify {
+	background:#95be45;
+	color:#fff;
+}
+.badge-php {
+	background:#666699;
+	color:#fff;
+}
+.badge-ruby {
+	background:#cc0000;
+	color:#fff;
+}
+.badge-wordpress {
+	background:#009ac9;
+	color:#fff;
+}
+.badge-liquid {
+	background:#efefef;
+	color:#333;
+}
+.read-more {
+	color:#333;
+	font-weight:bold;
+	transition: all ease .5s;
+	text-decoration:none;
+}
+.read-more:hover {
+	color:#cc0000;
+	text-decoration:none;
+	cursor:pointer;
+}
+.what-i-love h2 {
+    font-weight: 900;
+    color: #fff;
+}
+.what-i-love p {
+	font-weight:300;
+	color:#fff;
+	letter-spacing: 1px;
+}
+.what-i-love {
+	text-align:center;
+	background:#ef2f2f;
+	padding: 60px 0 50px 0;
+}
+.badge {
+    padding: 0.55em .7em !important;
+}
+
