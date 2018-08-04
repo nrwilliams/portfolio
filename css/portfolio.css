@@ -180,3 +180,26 @@ body {
     display: block;
     font-size: 2rem !important;
 }
+
+@media screen and (max-width: 450px) {
+
+	.hero {
+	    padding: 10px 0 150px 0;
+	}
+	.website-links {
+	    margin-bottom: 21px;
+	}
+	.name span {
+	    font-size: .9rem;
+	}
+	.aboutme {
+	    text-align: center;
+	}
+	.projects .col-md-4 img {
+	    margin-top: 60px;
+	}
+	.projects .col-md-4:first-child img {
+		margin-top:0;
+	}
+
+}
