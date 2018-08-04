@@ -154,4 +154,29 @@ body {
 .badge {
     padding: 0.55em .7em !important;
 }
-
+.more-examples {
+	text-align:center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.more-examples i {
+    font-size: 2rem;
+    border: 4px solid #eee;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 63px;
+    margin-bottom: 14px;
+}
+.more-examples h4 {
+    font-weight: 200;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.more-examples h4 span {
+    font-weight: 600;
+    display: block;
+    font-size: 2rem !important;
+}
