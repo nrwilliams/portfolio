@@ -38,6 +38,27 @@ body {
     padding: 10px 2px 0px 2px;
     display: inline-block;
 }
+.middle {
+	position:relative;
+}
+.middle:before {
+	content:'';
+	position: absolute;
+	left:0;
+	top:0;
+	background:#333;
+	width:1px;
+	height:100px;
+}
+.middle:after {
+	content:'';
+	position: absolute;
+	left:0;
+	top:0;
+	background:#333;
+	width:1px;
+	height:100px;
+}
 .website-links {text-align:center;}
 .website-links a {
     color: #41c6d4;
